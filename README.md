@@ -1,1 +1,1 @@
-Personal Website containing projects, accomplishments, skills, & interests. 
+Personal website containing projects, accomplishments, skills, & interests. 
