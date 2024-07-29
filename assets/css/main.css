@@ -2291,7 +2291,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #91999bea;
 		}
 
 		.icon.style2 {
@@ -2299,7 +2299,7 @@ input, select, textarea {
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #91999bea;
 		}
 
 		.icon.style4 {
@@ -2867,7 +2867,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0 0 1em 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
@@ -2884,23 +2884,32 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #FFFFFF;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #FFFFFF;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #FFFFFF;
 			}
 
-			.statistics li.style4 {
+			/* .statistics li.style4 {
 				background-color: #9bb2e1;
 			}
 
 			.statistics li.style5 {
 				background-color: #8cc9f0;
+			} */
+
+			.square-image {
+				width: 170px; /* Set the desired width */
+				height: 170px; /* Set the desired height to make it square */
+				object-fit: cover; /* Ensure the image covers the entire area */
+				display: block;
+				margin: 0 auto 1em auto; /* Center the image and add margin below */
+				border-radius: 10px; /* Round off the corners */
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3546,10 +3555,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #91999bea, #91999bea, #91999bea);
+			background-image: -webkit-linear-gradient(90deg, #91999bea, #91999bea, #91999bea);
+			background-image: -ms-linear-gradient(90deg, #91999bea, #91999bea, #91999bea);
+			background-image: linear-gradient(90deg, #91999bea, #91999bea, #91999bea);
 		}
 
 		#main table tbody tr {
